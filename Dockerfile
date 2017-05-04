@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/java:oracle-java8
+FROM ubuntu:trusty
 
 ENV ES_PKG_NAME elasticsearch-2.1.1
 
